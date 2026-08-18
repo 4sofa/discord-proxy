@@ -83,24 +83,6 @@ O UDP não é alterado.
 
 Fechar apenas a janela normalmente mantém o Discord na bandeja. Para fechar a porta, clique com o botão direito no ícone do Discord próximo ao relógio e escolha **Sair do Discord**.
 
-## Segurança e publicação no GitHub
-
-- Nunca publique um perfil `.conf`: ele contém a chave privada da VPN.
-- O `.gitignore` já bloqueia `*.conf`, executáveis e dependências baixadas.
-- O SOCKS5 escuta somente em `127.0.0.1`, sem exposição à rede local.
-- Uma cópia temporária do perfil recebe permissões restritas e é apagada após o início do WireGuard.
-- O launcher verifica o SHA-256 do `wireproxy` antes de executá-lo.
-
-Antes de publicar, confira o que será incluído:
-
-```powershell
-git init
-git add .
-git status
-```
-
-O arquivo `.conf` não deve aparecer no resultado. Se quiser distribuir o `.exe`, anexe-o separadamente a uma Release do GitHub e publique o SHA-256 mostrado pelo script de compilação.
-
 ## Diagnóstico
 
 Autoteste do auxiliar que mantém e fecha a porta:
