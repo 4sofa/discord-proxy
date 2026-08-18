@@ -1,0 +1,16 @@
+# WireGuard .conf files contain private keys. Never commit them.
+*.conf
+vpn-discord.config.psd1
+
+# Downloaded and generated wireproxy dependencies.
+tools/wireproxy/*.exe
+tools/wireproxy/*.tar.gz
+tools/wireproxy/*.download
+
+# Local compiler intermediates and release executables.
+.build/
+Discord-WireGuard*.exe
+
+# Windows and editor metadata.
+Thumbs.db
+.vs/
