@@ -41,9 +41,12 @@ Versão fixada da dependência: [`wireproxy` v1.1.3](https://github.com/windtf/w
 
 ## Uso
 
-1. Obtenha seu próprio perfil WireGuard no formato `.conf`.
-2. Deixe o túnel do aplicativo oficial WireGuard desligado.
-3. Coloque exatamente um `.conf` ao lado de `Discord-WireGuard-Auto.exe` ou escolha o arquivo quando solicitado.
+1. Obtenha seu próprio perfil WireGuard no formato `.conf` através do PROTONVPN por exemplo.
+<img width="1541" height="948" alt="image" src="https://github.com/user-attachments/assets/28faaa73-0a60-4c61-9fa3-acb5d76e7bc7" />
+<img width="1493" height="951" alt="image" src="https://github.com/user-attachments/assets/2aedafcd-a8b9-4369-8538-4bf0794d684d" />
+<img width="591" height="632" alt="image" src="https://github.com/user-attachments/assets/23fcfd8c-bfca-4943-b4dc-b270ae945d54" />
+
+3. Coloque exatamente o arquivo `.conf` ao lado de `Discord-WireGuard-Auto.exe` ou escolha o arquivo quando solicitado.
 4. Execute `Discord-WireGuard-Auto.exe` como usuário normal.
 5. Aguarde o Discord ficar estável e a janela do launcher fechar.
 
