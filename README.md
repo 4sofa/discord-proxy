@@ -110,3 +110,5 @@ Autoteste do auxiliar que mantém e fecha a porta:
 ```
 
 Se aparecer “outra instância já está em execução”, use **Sair do Discord** na bandeja, aguarde o auxiliar encerrar e tente novamente.
+
+thank you codex
